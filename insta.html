@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="aboutUS.css">
+</head>
+<style>
+    h3{
+    text-align: center;
+    font-size: 20px;
+    margin:0;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+.gallery{
+    
+    flex-wrap: wrap;
+    width: 110%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+    margin-left: 24px;
+
+}
+.content{
+width: 15%;
+margin:20px;
+box-sizing: border-box;
+float: left;
+text-align: center;
+border-radius: 20px;
+cursor: pointer;
+padding-top: 10px;
+transition: 0.4s;
+box-shadow: 0 14px 28px rgba(250, 168, 4, 0.4),0 10px 10px rgba(243, 9, 9, 0.3);
+background: #011207;
+list-style: none;
+}
+.content:hover{
+box-shadow: 0 3px 6px rgba(0, 0, 0,1),0 3px 6px rgba(0, 0,0.6);
+transform: translate(0px,-8px);
+
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display:block;
+}
+p{
+    text-align: center;
+    color: #fff;
+    padding-top: 0 8px;
+}
+h6{
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin:0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+}
+li{
+    padding:5px;
+}
+
+.checked{
+color: #a52ef4;
+}
+button{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    width: 100%;
+    padding:15px;
+    border:0;
+    outline: none;
+    cursor:pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+img{
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
+.buy-1{
+    background-color: rgb(136, 7, 249);
+}
+a{
+    font-family: cursive;
+    color: hsl(64, 89%, 48%);
+}
+
+
+@media(max-width:1000px){
+    .content{
+        width: 45%;
+    }
+}
+@media(max-width:750px){
+    .content{
+        width: 100%;
+    }
+}
+</style>
+<body>
+    <!-- CARDS START-->
+    <div class="gallery">
+
+        <div class="content">
+            
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ4MdW5W2SW6X6VA096CSA21UG_oUpQ6pNNA&usqp=CAU"alt="">
+            <p>ANKITA GHOSH</p>
+            
+            <button class="buy-1"><a href="https://instagram.com/sum.mer_glows?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">Read More</a></button>
+        </div>
+
+        <div class="content">
+            
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ4MdW5W2SW6X6VA096CSA21UG_oUpQ6pNNA&usqp=CAU" alt="">
+            <p>SRIJA GHORAI</p>
+            
+            <button class="buy-1"><a href="https://instagram.com/srija_ghorai?igshid=MzNlNGNkZWQ4Mg==">Read More</a></button>
+
+        </div>
+
+
+        </div>
+    </div>
+</body>
+</html>
